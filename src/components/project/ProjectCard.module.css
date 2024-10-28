@@ -1,0 +1,104 @@
+.project_card {
+    padding: 2em;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 20px;
+    width: 30%;
+    margin: 0.5%;
+    background-color: rgb(255, 255, 255);
+
+    -webkit-box-shadow: 0px 20px 56px -19px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 20px 56px -19px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 20px 25px -9px rgba(0, 0, 0, 0.219);
+
+    transition: 0.5s;
+
+}
+
+.project_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 20px 50px -4px rgba(0, 0, 0, 0.219);
+}
+
+.project_card h4 {
+    color: rgb(0, 0, 0);
+    padding: .4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.project_card p {
+    color: rgb(167, 167, 167);
+    margin-bottom: 1em;
+}
+
+.project_card p span {
+    font-weight: bold;
+}
+
+.category_text {
+    display: flex;
+    align-items: center;
+}
+
+.category_text span {
+    display: flex;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    margin-right: 5px;
+}
+
+.category_text .front-end {
+    background-color: rgb(255, 0, 0);
+}
+
+.category_text .back-end {
+    background-color: rgb(100, 161, 0);
+}
+
+.category_text .faculdade {
+    background-color: rgb(124, 109, 255);
+}
+
+.category_text .outros {
+    background-color: rgb(196, 196, 196);
+}
+
+.project_card_action {
+    margin-top: 1.2em;
+    display: flex; 
+    align-items: center;
+}
+
+.project_card_action a, 
+.project_card_action button {
+    text-decoration: none;
+    border: none;
+    background-color: #FFF;
+    color: #c7c7c7;
+    font-size: .9em;
+    font-weight: 500;
+    padding: .6em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px -9px rgba(0, 0, 0, 0.219);
+}
+
+.project_card_action svg {
+    margin-right: .5em;
+}
+
+.project_card_action a:hover,
+.project_card_action button:hover {
+    background-color: #c4c4c4;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 40px -9px rgba(0, 0, 0, 0.219);
+    transform: translateY(-1px);
+}

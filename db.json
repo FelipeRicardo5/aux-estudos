@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "id": "ef2a",
+      "name": "Teste espero que funcione amém ",
+      "budget": "15",
+      "category": {
+        "id": "3",
+        "name": "Faculdade"
+      },
+      "aux": 0,
+      "services": [
+        {
+          "name": "Felipe Ricardo de Barros Ferreira ",
+          "cost": "5",
+          "description": "sem desc, s'",
+          "id": "39f7254a-0c1b-4a0e-ad2b-ff89c84034ea"
+        },
+        {
+          "name": "Felipe Ricardo de Barros Ferreira ",
+          "cost": "5",
+          "description": "sem desc, só espero que funcione",
+          "id": "087dcd5c-d6fe-4cbe-9d7d-b74d2058d020"
+        },
+        {
+          "name": "Felipe Ricardo de Barros Ferreira ",
+          "cost": "5",
+          "description": "sem desc, só espero que funcione",
+          "id": "087dcd5c-d6fe-4cbe-9d7d-b74d2058d020"
+        },
+        {
+          "name": "Felipe Ricardo de Barros Ferreira ",
+          "cost": "5",
+          "description": "sem desc, s'",
+          "id": "b6164ad0-7fe1-40cf-9b10-55b8b6c2a1c8"
+        },
+        {
+          "name": "Felipe Ricardo de Barros Ferreira ",
+          "cost": "5",
+          "description": "sem desc, s'",
+          "id": "2ad50bbd-be17-4bfe-8d30-8431aefe64c1"
+        }
+      ],
+      "cost": null
+    },
+    {
+      "id": "ef77",
+      "name": "fef",
+      "budget": "4323",
+      "category": {
+        "id": "1",
+        "name": "Front-End"
+      },
+      "aux": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Front-End"
+    },
+    {
+      "id": "2",
+      "name": "Back-End"
+    },
+    {
+      "id": "3",
+      "name": "Faculdade"
+    },
+    {
+      "id": "4",
+      "name": "Outros"
+    }
+  ]
+}
